@@ -1,0 +1,64 @@
+*{
+  margin:0px;
+  padding:0px;
+ 
+}
+.container{
+  max-width: 80%;
+  margin:0px;
+  padding: 0 5rem;
+}
+h1{
+  margin-top:5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.top{
+margin-top: 1rem;
+display: flex;
+gap:1rem;
+justify-content: center;
+}
+input{
+  border: none;
+  outline: none;
+  width:400px;
+  color:black;
+  padding:0 0.5rem;
+  padding-top: 1rem;
+  border-bottom: 2px solid #000;
+}
+.add
+{
+  background-color: black;
+  color:white;
+  padding:0.5rem 1.5rem;
+  cursor:pointer;
+  border-radius:5px;
+}
+.todo{
+  
+  position:relative;
+  margin-top: 1rem;
+  background-color: #000;
+  color: #fff;
+justify-content: center;
+margin-left: 20%;
+width:40%;
+  padding: 1.5rem 3rem;
+  border-radius: 5px;
+}
+.icons{
+  position: absolute;
+  top:36%;
+  transform:translate(-50%);
+  right:20px;
+  display: flex;
+  background-color: #000;
+  gap:0.5rem;
+}
+icon{
+  cursor: pointer;
+  font-size: 30px;
+  background-color: #000;
+}
